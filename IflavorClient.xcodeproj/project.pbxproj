@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDC883D21FBF19C4000A136F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC883D11FBF19C4000A136F /* AppDelegate.swift */; };
+		DDC883D41FBF19C4000A136F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC883D31FBF19C4000A136F /* ViewController.swift */; };
+		DDC883D71FBF19C4000A136F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDC883D51FBF19C4000A136F /* Main.storyboard */; };
+		DDC883D91FBF19C4000A136F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDC883D81FBF19C4000A136F /* Assets.xcassets */; };
+		DDC883DC1FBF19C4000A136F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDC883DA1FBF19C4000A136F /* LaunchScreen.storyboard */; };
+		DDC883E71FBF19C5000A136F /* IflavorClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC883E61FBF19C5000A136F /* IflavorClientTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDC883E31FBF19C5000A136F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDC883C61FBF19C4000A136F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDC883CD1FBF19C4000A136F;
+			remoteInfo = IflavorClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDC883CE1FBF19C4000A136F /* IflavorClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IflavorClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDC883D11FBF19C4000A136F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DDC883D31FBF19C4000A136F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DDC883D61FBF19C4000A136F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDC883D81FBF19C4000A136F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDC883DB1FBF19C4000A136F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDC883DD1FBF19C4000A136F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDC883E21FBF19C5000A136F /* IflavorClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IflavorClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDC883E61FBF19C5000A136F /* IflavorClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IflavorClientTests.swift; sourceTree = "<group>"; };
+		DDC883E81FBF19C5000A136F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDC883CB1FBF19C4000A136F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDC883DF1FBF19C5000A136F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDC883C51FBF19C4000A136F = {
+			isa = PBXGroup;
+			children = (
+				DDC883D01FBF19C4000A136F /* IflavorClient */,
+				DDC883E51FBF19C5000A136F /* IflavorClientTests */,
+				DDC883CF1FBF19C4000A136F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDC883CF1FBF19C4000A136F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDC883CE1FBF19C4000A136F /* IflavorClient.app */,
+				DDC883E21FBF19C5000A136F /* IflavorClientTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDC883D01FBF19C4000A136F /* IflavorClient */ = {
+			isa = PBXGroup;
+			children = (
+				DDC883D11FBF19C4000A136F /* AppDelegate.swift */,
+				DDC883D31FBF19C4000A136F /* ViewController.swift */,
+				DDC883D51FBF19C4000A136F /* Main.storyboard */,
+				DDC883D81FBF19C4000A136F /* Assets.xcassets */,
+				DDC883DA1FBF19C4000A136F /* LaunchScreen.storyboard */,
+				DDC883DD1FBF19C4000A136F /* Info.plist */,
+			);
+			path = IflavorClient;
+			sourceTree = "<group>";
+		};
+		DDC883E51FBF19C5000A136F /* IflavorClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDC883E61FBF19C5000A136F /* IflavorClientTests.swift */,
+				DDC883E81FBF19C5000A136F /* Info.plist */,
+			);
+			path = IflavorClientTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDC883CD1FBF19C4000A136F /* IflavorClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDC883EB1FBF19C5000A136F /* Build configuration list for PBXNativeTarget "IflavorClient" */;
+			buildPhases = (
+				DDC883CA1FBF19C4000A136F /* Sources */,
+				DDC883CB1FBF19C4000A136F /* Frameworks */,
+				DDC883CC1FBF19C4000A136F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IflavorClient;
+			productName = IflavorClient;
+			productReference = DDC883CE1FBF19C4000A136F /* IflavorClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDC883E11FBF19C5000A136F /* IflavorClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDC883EE1FBF19C5000A136F /* Build configuration list for PBXNativeTarget "IflavorClientTests" */;
+			buildPhases = (
+				DDC883DE1FBF19C5000A136F /* Sources */,
+				DDC883DF1FBF19C5000A136F /* Frameworks */,
+				DDC883E01FBF19C5000A136F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDC883E41FBF19C5000A136F /* PBXTargetDependency */,
+			);
+			name = IflavorClientTests;
+			productName = IflavorClientTests;
+			productReference = DDC883E21FBF19C5000A136F /* IflavorClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDC883C61FBF19C4000A136F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = bitswitches;
+				TargetAttributes = {
+					DDC883CD1FBF19C4000A136F = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					DDC883E11FBF19C5000A136F = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DDC883CD1FBF19C4000A136F;
+					};
+				};
+			};
+			buildConfigurationList = DDC883C91FBF19C4000A136F /* Build configuration list for PBXProject "IflavorClient" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDC883C51FBF19C4000A136F;
+			productRefGroup = DDC883CF1FBF19C4000A136F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDC883CD1FBF19C4000A136F /* IflavorClient */,
+				DDC883E11FBF19C5000A136F /* IflavorClientTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDC883CC1FBF19C4000A136F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDC883DC1FBF19C4000A136F /* LaunchScreen.storyboard in Resources */,
+				DDC883D91FBF19C4000A136F /* Assets.xcassets in Resources */,
+				DDC883D71FBF19C4000A136F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDC883E01FBF19C5000A136F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDC883CA1FBF19C4000A136F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDC883D41FBF19C4000A136F /* ViewController.swift in Sources */,
+				DDC883D21FBF19C4000A136F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDC883DE1FBF19C5000A136F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDC883E71FBF19C5000A136F /* IflavorClientTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDC883E41FBF19C5000A136F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDC883CD1FBF19C4000A136F /* IflavorClient */;
+			targetProxy = DDC883E31FBF19C5000A136F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDC883D51FBF19C4000A136F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDC883D61FBF19C4000A136F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDC883DA1FBF19C4000A136F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDC883DB1FBF19C4000A136F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDC883E91FBF19C5000A136F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DDC883EA1FBF19C5000A136F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDC883EC1FBF19C5000A136F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = IflavorClient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bitswitches.IflavorClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDC883ED1FBF19C5000A136F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = IflavorClient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bitswitches.IflavorClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DDC883EF1FBF19C5000A136F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IflavorClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bitswitches.IflavorClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IflavorClient.app/IflavorClient";
+			};
+			name = Debug;
+		};
+		DDC883F01FBF19C5000A136F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IflavorClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bitswitches.IflavorClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IflavorClient.app/IflavorClient";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDC883C91FBF19C4000A136F /* Build configuration list for PBXProject "IflavorClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDC883E91FBF19C5000A136F /* Debug */,
+				DDC883EA1FBF19C5000A136F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDC883EB1FBF19C5000A136F /* Build configuration list for PBXNativeTarget "IflavorClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDC883EC1FBF19C5000A136F /* Debug */,
+				DDC883ED1FBF19C5000A136F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDC883EE1FBF19C5000A136F /* Build configuration list for PBXNativeTarget "IflavorClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDC883EF1FBF19C5000A136F /* Debug */,
+				DDC883F01FBF19C5000A136F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDC883C61FBF19C4000A136F /* Project object */;
+}
